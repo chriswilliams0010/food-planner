@@ -1,0 +1,26 @@
+[flake8]
+# This section sets the configuration for the Flake8 tool
+
+# Specify the maximum line length
+max-line-length = 120
+
+# Exclude directories or files that do not need linting (e.g., migrations, external libraries)
+exclude =
+    .git,
+    __pycache__,
+    old,
+    build,
+    dist,
+    migrations,
+    venv
+
+# Set the complexity threshold. Flake8 will warn about too complex functions
+max-complexity = 10
+
+# Select specific errors and warnings to either enable or ignore
+# E.g., uncomment to ignore certain errors (uncomment and replace XXX with error codes)
+# ignore = EXXX,WXXX
+
+# Enable plugins, such as flake8-docstrings
+# E.g., uncomment and adjust as necessary
+# require-code = True

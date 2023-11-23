@@ -1,0 +1,44 @@
+[MASTER]
+# A list of file extensions of files that will be checked for syntax errors
+# This can be a list of multiple values
+load-plugins=pylint_django
+
+[MESSAGES CONTROL]
+# Disable the message, report, category or checker with the given id(s).
+# You can either give multiple identifier separated by comma (,) or put this option
+# multiple times.
+disable=
+    missing-docstring,
+    too-few-public-methods,
+    too-many-arguments,
+    too-many-locals,
+    too-many-instance-attributes,
+    too-many-branches,
+    too-many-statements,
+    no-else-return,
+    no-else-raise,
+    duplicate-code,
+    R0801,
+    C0103
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=120
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=10
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=10
+
+# Maximum number of boolean expressions in a if statement
+max-bool-expr=5
+
+# Maximum number of branch for function / method body
+max-branches=12
+
+[TYPECHECK]
+# Tells whether to perform type checking.
+generated-members=django.*
+
