@@ -11,7 +11,7 @@ This meal planning app is designed to make daily meal decisions and grocery shop
 
 ## Getting Started
 ### Prerequisites
-- List any prerequisites for setting up the project (e.g., Python version, Node.js, etc.)
+// List any prerequisites for setting up the project (e.g., Python version, Node.js, etc.)
 
 ### Installation
 1. Clone the repository:
@@ -28,7 +28,7 @@ This meal planning app is designed to make daily meal decisions and grocery shop
 
 
 ## Usage
-- Briefly explain how to use the app, including any important commands or features.
+// Briefly explain how to use the app, including any important commands or features.
 
 ## Contributing
 Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -44,11 +44,11 @@ Distributed under the [License Name]. See [LICENSE](LICENSE) for more informatio
 ## Resources
 - [STYLEGUIDE.md](STYLEGUIDE.md): Coding conventions and styles.
 - [CONTRIBUTING.md](CONTRIBUTING.md): Guidelines on how to contribute to this project.
-- Link to the project's GitHub Project Board for progress tracking and task management.
+// Link to the project's GitHub Project Board for progress tracking and task management.
 
 ## Contact
-- Your Name - Your Contact Information
-- Project Link: [repository-url]
+- Your Name - chriswilliams0010
+- Project Link: https://github.com/chriswilliams0010/food-planner
 
 ## Acknowledgements
-- List any libraries or tools you use and want to give credit to.
+// List any libraries or tools you use and want to give credit to.
